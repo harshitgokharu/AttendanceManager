@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".output"
+    android:background="@drawable/at"
+    android:id="@+id/drawer">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="30sp"
+        android:shadowColor="#000"
+        android:text="@string/course"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="30sp"
+        android:shadowColor="#fff"
+        android:text="@string/total_present_0"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="60sp"
+        android:shadowColor="#000"
+        android:text="@string/students_present"
+        android:textColor="#000" />
+
+
+
+
+
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/nav_menu" />
+</android.support.v4.widget.DrawerLayout>

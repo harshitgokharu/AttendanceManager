@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Attendance Manager</string>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="todo">todo</string>
+    <string name="user_id">user_id</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="username">username</string>
+    <string name="gridlayout">gridlayout</string>
+    <string name="sem_3_coa">SEM-3 COA</string>
+
+    <string name="todo1">TODO</string>
+    <string name="sem_3_dbms">SEM-3 DBMS</string>
+    <string name="sem_4_os">SEM-4 OS</string>
+    <string name="sem_4_pl">SEM-4 PL</string>
+
+    <string name="submit">submit</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="students_present">STUDENTS PRESENT:</string>
+    <string name="course">COURSE:</string>
+    <string name="total_present">TOTAL PRESENT:</string>
+    <string name="total_present_0">TOTAL PRESENT: 0</string>
+    <string name="todo2">TODO</string>
+    <string name="profile">PROFILE</string>
+    <string name="home">HOME</string>
+    <string name="name">name</string>
+    <string name="subject">subject</string>
+    <string name="name1">NAME:</string>
+    <string name="subjects">SUBJECTS:</string>
+    <string name="year_of_joining">YEAR OF JOINING:</string>
+    <string name="enter_date">enter date</string>
+    <string name="save1">save</string>
+    <string name="retrieve_data">retrieve data</string>
+    <string name="retrieve">RETRIEVE</string>
+
+
+</resources>

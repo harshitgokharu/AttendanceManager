@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".output"
+    android:id="@+id/drawer">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="30sp"
+        android:shadowColor="#000"
+        android:text="@string/course" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="30sp"
+        android:shadowColor="#000"
+        android:text="@string/total_present_0" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="60sp"
+        android:shadowColor="#000"
+        android:text="@string/students_present" />
+
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="70sp"
+        android:gravity="top"
+        android:hint="@string/enter_date"
+        android:shadowColor="#000"
+        android:inputType=""
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="13sp"
+        android:layout_height="13sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="180sp"
+        android:layout_marginRight="100sp"
+        android:layout_marginBottom="500sp"
+        android:text="@string/save1" />
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/nav_menu" />
+</android.support.v4.widget.DrawerLayout>
